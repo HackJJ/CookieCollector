@@ -1,13 +1,12 @@
 
-# Cookie and Local Storage AsciiDoc & CSV Exporter for Firefox
+# Cookie AsciiDoc & CSV Exporter for Firefox
 
-A Firefox extension that allows you to export cookies and local storage data for the active domain in either AsciiDoc or CSV formats. This extension is designed for ease of use, providing straightforward data exports for documentation or reporting purposes.
+A Firefox extension that allows you to export cookies for the active domain in either AsciiDoc or CSV formats. This extension is designed for ease of use, providing straightforward data exports for documentation or reporting purposes.
 
 ## Features
 
 - Export cookies in AsciiDoc or CSV format
-- Export local storage data in AsciiDoc or CSV format
-- Simple interface with export buttons for cookies and local storage data
+- Simple interface with export buttons for cookies
 - Copy-paste friendly table formats
 
 ## Installation
@@ -19,13 +18,11 @@ A Firefox extension that allows you to export cookies and local storage data for
 
 ## Usage
 
-1. Go to any site where you want to export cookies or local storage data.
+1. Go to any site where you want to export cookies.
 2. Click on the extension icon in the toolbar.
 3. Use one of the following options:
    - **Export Cookies to AsciiDoc**: Creates a table of cookies in AsciiDoc format.
    - **Export Cookies to CSV**: Creates a CSV file of cookies.
-   - **Export Local Storage to AsciiDoc**: Creates a table of local storage data in AsciiDoc format.
-   - **Export Local Storage to CSV**: Creates a CSV file of local storage data.
 4. Copy the output from the respective text area as needed.
 
 ## Video Time
