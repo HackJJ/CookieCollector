@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cookie Exporter</title>
+  <style>
+    body {
+      width: 800px;  /* Set desired width */
+      height: 600px; /* Set desired height */
+      font-family: Arial, sans-serif;
+    }
+    textarea {
+      white-space: pre-wrap;  /* Makes long text wrap */
+      overflow-y: auto;       /* Adds scroll if content overflows */
+      max-height: 250px;      /* Control height of text area */
+    }
+  </style>
+  <script src="background.js"></script>
+</head>
+<body>
+  <button id="exportButtonAscii">Export Cookies to AsciiDoc</button>
+  <textarea id="cookieTableAscii" style="width:100%; height: 500px;" readonly></textarea>
+  <button id="exportButtonCSV">Export Cookies to CSV</button>
+  <textarea id="cookieTableCSV" style="width:100%; height: 500px;" readonly></textarea>
+</body>
+</html>
