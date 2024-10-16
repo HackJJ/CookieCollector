@@ -14,7 +14,7 @@ A Firefox extension that allows you to export cookies for the active domain in e
 1. Clone or download this repository.
 2. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`.
 3. Select **Load Temporary Add-on…** and choose the `manifest.json` file from the downloaded directory.
-4. The extension icon should now appear in the toolbar.
+4. The extension icon should now appear in the toolbar (or it may not, who knows at this point? Just watch the video below to see how I accessed it).
 
 ## Usage
 
